@@ -28,7 +28,7 @@ const Signin = () => {
     } catch (error) {
       console.error('Sign In Error:', error.message);
 
-      toast.warning(`Failed to sign in: ${error.message}`);
+      toast.warning(`Failednpm create vite@latest my-project -- --template react to sign in: ${error.message}`);
     }
   };
 
